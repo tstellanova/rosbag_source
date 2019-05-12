@@ -1,0 +1,22 @@
+[package]
+name = "rosbag_source"
+version = "0.1.0"
+authors = ["tstellanova <tstellanova@users.noreply.github.com>"]
+edition = "2018"
+license = "BSD-3-Clause"
+repository = "https://github.com/tstellanova/rosbag_source"
+description = "Provides a way to read an ordered series of ROS messages from a Bag file, as rust types."
+keywords = ["ros", "bag", "rosbag", "rosmsg", "robotics"]
+readme = "README.md"
+
+[dependencies]
+rosbag = "0.2.0"
+serde_rosmsg = "0.2.0"
+
+[dev-dependencies]
+rosrust_codegen = "0.7.0"
+
+
+
+
+
